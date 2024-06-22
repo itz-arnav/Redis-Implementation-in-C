@@ -25,7 +25,7 @@ typedef unsigned char int8;
 
 struct s_client{
     int s;
-    //212.212.212.212\0
+    //212.212.212.212\0 -> 16 characters required at max
     char ip[16];
     int16 port;
 };

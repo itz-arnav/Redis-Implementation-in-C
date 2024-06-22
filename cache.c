@@ -32,7 +32,7 @@ DWORD WINAPI ThreadFunction(LPVOID param) {
 
 void mainloop(int s) {
     struct sockaddr_in cli;
-    int len = sizeof(cli); // Initialize the length of the client structure
+    int len = sizeof(cli);
     int s2;
     char* ip;
     int16 port;
@@ -61,7 +61,7 @@ void mainloop(int s) {
 
     zero(client, sizeof(Client));
 
-    client->s = s2; // Use the accepted socket
+    client->s = s2;
     client->port = port;
     strncpy(client->ip, ip, 15);
 
