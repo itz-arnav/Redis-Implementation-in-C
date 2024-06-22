@@ -30,10 +30,33 @@ This project demonstrates a simple Redis database server implementation on Windo
 ## Building and Running the Server
 
 1. Clone the repository:
+
+   ```sh
    git clone <repository-url>
    cd <repository-directory>
+   ```
 
-Thanks
+2. Build the project:
+
+   ```sh
+   make
+   ```
+
+3. Run the server:
+
+   ```sh
+   ./server.exe
+   ```
+
+4. Open a command prompt and connect to the server using Telnet:
+   ```sh
+   telnet 127.0.0.1 1567
+   ```
+
+You should see the message "200 Connected to Cache server".
+
+## Thanks
+
 Special thanks to Dr. Jonas Birch for his video tutorial on this project. This repository is the Windows version of that tutorial.
 
 You can watch the original tutorial [here](https://www.youtube.com/watch?v=FFxEoQyNQKM).
