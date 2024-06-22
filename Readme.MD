@@ -1,6 +1,6 @@
-# Simple TCP Server on Windows
+# Coding a FAST Redis database server in C
 
-This project demonstrates a simple TCP server implementation on Windows, accepting connections and sending a message to connected clients. This is based on Dr. Jonas Birch's video tutorial.
+This project demonstrates a simple Redis database server implementation on Windows, accepting connections and sending a message to connected clients. This is based on Dr. Jonas Birch's video tutorial.
 
 ## Requirements
 
